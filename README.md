@@ -25,3 +25,14 @@ Things you may want to cover:
 
 # Tutorial
 [link](http://edgeguides.rubyonrails.org/getting_started.html)
+
+# Doker guide
+## Install
+* /user/local/bin/docker-compose, copy last version from github
+* sudo chmod a+=x /user/local/bin/docker-compose
+## Use
+* sudo docker-compose up
+* (sudo docker-compose run web rails new . --force --database=postgresql)
+* (docker-compose build)
+* sudo docker-compose run web rake db:create
+* sudo docker-compose down
