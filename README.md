@@ -33,6 +33,7 @@ Things you may want to cover:
 ## Use
 * sudo docker-compose up
 * (sudo docker-compose run web rails new . --force --database=postgresql)
-* (docker-compose build)
+* (sudo docker-compose build)
 * sudo docker-compose run web rake db:create
 * sudo docker-compose down
+* docker ps to see docker container
